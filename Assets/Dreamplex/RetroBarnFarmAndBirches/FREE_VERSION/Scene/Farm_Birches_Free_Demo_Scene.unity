@@ -204,6 +204,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5112243995229247134, guid: 8afbee69a72a0c049857fe9e30bb9686,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.72
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -541,6 +546,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 3123662774120007305, guid: 6df495bf2fb9f934a81e1a054ae960bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.29
+      objectReference: {fileID: 0}
     - target: {fileID: 3142216578000083009, guid: 6df495bf2fb9f934a81e1a054ae960bd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -601,6 +611,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5141046450260876270, guid: 6df495bf2fb9f934a81e1a054ae960bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141046450260876270, guid: 6df495bf2fb9f934a81e1a054ae960bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5141046450260876270, guid: 6df495bf2fb9f934a81e1a054ae960bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6014071527924570873, guid: 6df495bf2fb9f934a81e1a054ae960bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6014071527924570873, guid: 6df495bf2fb9f934a81e1a054ae960bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6014071527924570873, guid: 6df495bf2fb9f934a81e1a054ae960bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 6544799115491496133, guid: 6df495bf2fb9f934a81e1a054ae960bd,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -610,6 +650,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarnBirchesScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500246805163043250, guid: 6df495bf2fb9f934a81e1a054ae960bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8789980325317472361, guid: 6df495bf2fb9f934a81e1a054ae960bd,
         type: 3}
