@@ -23,6 +23,6 @@ public class MainMenu : MonoBehaviour
 
     public void Replay()
     {
-        SceneManager.LoadScene("ExteriorLevel");
+        SceneManager.LoadScene("Level1");
     }
 }
