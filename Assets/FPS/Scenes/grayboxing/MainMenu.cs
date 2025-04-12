@@ -3,12 +3,25 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void ReturnMenu()
+    public void PlayGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+    public void Credits()
+    {
+        SceneManager.LoadScene("CreditsMenu");
+    }
+
+    public void Menu()
     {
         SceneManager.LoadScene("MainMenu");
     }
-  
-    public void PlayAgain()
+
+    public void Replay()
     {
         SceneManager.LoadScene("ExteriorLevel");
     }
