@@ -791,6 +791,7 @@ MonoBehaviour:
   textComponent: {fileID: 960998063}
   lines:
   - "No one\u2019s ever returned. Some say it\u2019s a great honour\u2026"
+  - Finally. Cluckles, here I come!
   textSpeed: 0.05
 --- !u!114 &1133018600
 MonoBehaviour:
