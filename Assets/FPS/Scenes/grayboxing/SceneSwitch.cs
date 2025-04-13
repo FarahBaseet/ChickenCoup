@@ -38,6 +38,11 @@ public class MainMenu : MonoBehaviour
 
     public void SkipMotive()
     {
+        SceneManager.LoadScene("TwistTB");
+    }
+
+    public void SkipTwist()
+    {
         SceneManager.LoadScene("Level2");
     }
 
