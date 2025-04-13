@@ -929,6 +929,9 @@ MonoBehaviour:
   lines:
   - No ritual. No powers. Just... dinner? Cluckles... you were never chosen.
   - "You were butchered. He\u2019s been eating us all along!"
+  - I can hear the farmer's footsteps approaching...
+  - Cluckles...
+  - I will avenge you.
   textSpeed: 0.05
 --- !u!114 &1133018600
 MonoBehaviour:
