@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/FPS/Scenes/grayboxing/CreditsMenu.unity
     guid: 583538ac7b1f82e499c02c038098ad74
   - enabled: 1
-    path: Assets/FPS/Scenes/grayboxing/WinMenu.unity
+    path: Assets/FPS/Scenes/grayboxing/WinScene.unity
     guid: 69819786eabe9954581cb7600e88e453
   - enabled: 1
     path: Assets/FPS/Scenes/grayboxing/LoseMenu.unity
