@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("IntroTB");
     }
     public void QuitGame()
     {
@@ -29,5 +29,10 @@ public class MainMenu : MonoBehaviour
     public void Tutorial()
     {
         SceneManager.LoadScene("TutorialMenu");
+    }
+
+    public void SkipIntro()
+    {
+        SceneManager.LoadScene("Level1");
     }
 }
