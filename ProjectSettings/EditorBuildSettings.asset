@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/FPS/Scenes/grayboxing/WinScene.unity
     guid: 69819786eabe9954581cb7600e88e453
   - enabled: 1
-    path: Assets/FPS/Scenes/grayboxing/LoseMenu.unity
+    path: Assets/FPS/Scenes/grayboxing/LoseScene.unity
     guid: 089c7b7e102cb7441bae0e88faa9df37
   - enabled: 1
     path: Assets/FPS/Scenes/grayboxing/TutorialMenu.unity
