@@ -841,8 +841,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 960998063}
   lines:
-  - "The truth was bitter, but now I\u2019m free. No more cages. No more farmer.
-    The Great Peckoning ends with me."
+  - No ritual. No powers. Just... dinner? Cluckles... you were never chosen.
+  - "You were butchered. He\u2019s been eating us all along!"
   textSpeed: 0.05
 --- !u!114 &1133018600
 MonoBehaviour:

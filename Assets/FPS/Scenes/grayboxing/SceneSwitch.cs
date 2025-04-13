@@ -35,4 +35,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level1");
     }
+
+    public void SkipMotive()
+    {
+        SceneManager.LoadScene("Level2");
+    }
+
+    public void SkipConclusion()
+    {
+        SceneManager.LoadScene("WinScene");
+    }
 }
