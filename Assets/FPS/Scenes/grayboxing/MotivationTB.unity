@@ -691,7 +691,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131734237}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -790,7 +790,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 960998063}
   lines:
-  - "No one\u2019s ever returned. Some say it\u2019s a great honour\u2026"
+  - "They picked Cluckles\u2026 I can\u2019t just sit here. I need to find out what\u2019s
+    really going on\u2014whether it\u2019s glory or danger. I\u2019m going after
+    him."
   - Finally. Cluckles, here I come!
   textSpeed: 0.05
 --- !u!114 &1133018600
