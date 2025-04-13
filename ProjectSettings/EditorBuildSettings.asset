@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/FPS/Scenes/grayboxing/MainMenu.unity
     guid: 176459ff573c4634e9725f896f3032ae
   - enabled: 1
-    path: Assets/FPS/Scenes/grayboxing/ExteriorLevel.unity
+    path: Assets/FPS/Scenes/grayboxing/Level1.unity
     guid: e338ba867fa384ec4afad77d165a126e
   - enabled: 1
     path: Assets/FPS/Scenes/grayboxing/CreditsMenu.unity
