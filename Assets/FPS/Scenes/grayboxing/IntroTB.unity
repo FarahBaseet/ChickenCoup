@@ -797,6 +797,11 @@ MonoBehaviour:
   - "They call it The Great Peckoning\u2026 Every month, the farmer chooses one of
     us for a \u2018special ritual.\u2019 No one\u2019s ever returned."
   - "Some say it\u2019s a great honour\u2026 others whisper darker things."
+  - Today my friend, Cluckles, was taken earlier this morning. I can't shake the
+    awful feeling that he needs to be rescued.
+  - First, I need to get inside the house. But to do that, I need to get past his
+    dog.
+  - At any cost.
   textSpeed: 0.05
 --- !u!114 &1133018600
 MonoBehaviour:
