@@ -53,6 +53,12 @@ namespace Unity.FPS.Game
 
                 AudioUtility.SetMasterVolume(1 - timeRatio);
 
+                // 🔒 Keep cursor unlocked during cutscene
+                if (Cursor.lockState != CursorLockMode.None)
+                    Cursor.lockState = CursorLockMode.None;
+                if (!Cursor.visible)
+                    Cursor.visible = true;
+
                 // See if it's time to load the end scene (after the delay)
                 if (Time.time >= m_TimeLoadEndGameScene)
                 {
@@ -60,10 +66,27 @@ namespace Unity.FPS.Game
                     GameIsEnding = false;
                 }
             }
+
+            if (GameIsEnding)
+            {
+                float timeRatio = 1 - (m_TimeLoadEndGameScene - Time.time) / EndSceneLoadDelay;
+                EndGameFadeCanvasGroup.alpha = timeRatio;
+
+                AudioUtility.SetMasterVolume(1 - timeRatio);
+
+                // See if it's time to load the end scene (after the delay)
+                if (Time.time >= m_TimeLoadEndGameScene)
+                {
+                    SceneManager.LoadScene(m_SceneToLoad);
+                    GameIsEnding = false;
+                }
+            }
+
         }
 
         void OnAllObjectivesCompleted(AllObjectivesCompletedEvent evt) => EndGame(true);
         void OnPlayerDeath(PlayerDeathEvent evt) => EndGame(false);
+
 
         void EndGame(bool win)
         {

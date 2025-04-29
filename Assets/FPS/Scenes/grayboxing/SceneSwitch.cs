@@ -49,5 +49,6 @@ public class MainMenu : MonoBehaviour
     public void SkipConclusion()
     {
         SceneManager.LoadScene("WinScene");
+        SceneManager.LoadScene("WinScene");
     }
 }
